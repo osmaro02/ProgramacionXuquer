@@ -93,7 +93,7 @@ public class Empleado  {
 	  {
 	   System.out.println("Estado civil Soltero");
 	   }
-	  System.out.println("");
+	  
 	  }
 	  
 	//------------- aumentarSueldo(porcentaje) ----------
