@@ -38,17 +38,18 @@ public class Programador extends Empleado {
 	  
 	//------------- nivelProgramacion() ----------------------
 	 public void nivelProgramacion(){
-		  
+		 System.out.println("Programador");
+		 
 		  if (lineasCodigoPorHora <= 200){
-			  System.out.println("Level 1"); 
+			  System.out.println("Nivel de programación: Level 1"); 
 		  }
 		  else
 		  if ((lineasCodigoPorHora >=200) & (edad <= 500)){
-			  System.out.println("Level 2"); 
+			  System.out.println("Nivel de programación: Level 2"); 
 		  }
 		  else
 		  if (lineasCodigoPorHora > 500){
-			  System.out.println("Level 3"); 
+			  System.out.println("Nivel de programación: Level 3"); 
 		  }
 		  
 		 }

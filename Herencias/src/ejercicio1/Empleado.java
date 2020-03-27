@@ -2,8 +2,9 @@ package ejercicio1;
 
 public class Empleado  {
 
-	 String nombre;
-	 String dni;
+	protected String nombre;
+	protected String dni;
+	
 	 int edad;
 	 boolean casado;
 	 double salario;
@@ -80,18 +81,19 @@ public class Empleado  {
 	 
 	  //------------ MostrarDatos() -----------------
 	 public void ImprimirEmpleado(){
-	  System.out.println(this.nombre);
-	  System.out.println(this.dni);
-	  System.out.println(this.edad);
-	  System.out.println(this.salario);
+		
+	  System.out.println("Nombre: "+this.nombre+" DNI : "+this.dni+" Edad: "+this.edad+" Salario: "+this.salario);
+	 
 	  boolean casado = true;
 	  if (casado) {
-	   System.out.println("Casado");
+	   System.out.println("Estado civil Casado");
+	  casado= true;
 	  }
 	  else
 	  {
-	   System.out.println("Soltero");
+	   System.out.println("Estado civil Soltero");
 	   }
+	  System.out.println("");
 	  }
 	  
 	//------------- aumentarSueldo(porcentaje) ----------
