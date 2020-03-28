@@ -6,7 +6,7 @@ public class Principal {
 		
 		//--------------------- Empleado -------------------------
 		System.out.println("Empleado");
-		  Empleado e = new Empleado("Pepe","123456789A",18,false,1800);
+		  Empleado e = new Empleado("Pepe","123456789A",18,true,1800);
 		     e.ImprimirEmpleado(); 
 		     System.out.println("Clasificación: "+e.Clasificacion());
 		     System.out.println("");

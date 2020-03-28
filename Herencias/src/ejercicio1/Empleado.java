@@ -82,9 +82,9 @@ public class Empleado  {
 	  //------------ MostrarDatos() -----------------
 	 public void ImprimirEmpleado(){
 		
-	  System.out.println("Nombre: "+this.nombre+" DNI : "+this.dni+" Edad: "+this.edad+" Salario: "+this.salario);
+	  System.out.println("Nombre: "+this.nombre+", DNI: "+this.dni+", Edad: "+this.edad+", Salario: "+this.salario);
 	 
-	  boolean casado = true;
+	 
 	  if (casado) {
 	   System.out.println("Estado civil Casado");
 	  casado= true;
