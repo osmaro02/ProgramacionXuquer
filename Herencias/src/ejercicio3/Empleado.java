@@ -10,7 +10,7 @@ public class Empleado {
     public Empleado() {
     }
 
-    //constructor con un parámetro
+    //constructor con parámetro
     public Empleado(String nombre) {
        this.nombre = nombre;
        
