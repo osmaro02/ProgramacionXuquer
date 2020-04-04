@@ -9,6 +9,7 @@ public class Tecnico extends Operario{
     //constructor con parámetro
     public Tecnico(String nombre) {
         super(nombre);
+    
     }
     
     

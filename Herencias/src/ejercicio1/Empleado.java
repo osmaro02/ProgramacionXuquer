@@ -101,6 +101,8 @@ public class Empleado  {
 	  salario = salario * (1 + porcentaje);
 	 }
 	  
-	
+	 public void mostrarMensaje(String mensaje) {
+		 System.out.println("El empleado está de vacaciones");
+	 }
 
 }

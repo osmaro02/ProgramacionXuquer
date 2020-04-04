@@ -6,6 +6,10 @@ class ProfesorEnfermo extends Profesor {
 	
 	public ProfesorEnfermo(String nombre, String despacho) {
 		super(nombre, despacho);
+	/* Super equivale a: public Profesor(String nombre, String despacho) {
+							this.nombre = nombre;
+							this.despacho = despacho;}
+		 */
 	}
 
 	@Override

@@ -18,5 +18,7 @@ public class Principal {
 		     p1.nivelProgramacion();
 		     p1.ImprimirEmpleado();
 		     System.out.println("Clasificación: "+p1.Clasificacion());
-	    }
-}
+		     p1.mostrarMensaje("");
+
+		}
+	}
