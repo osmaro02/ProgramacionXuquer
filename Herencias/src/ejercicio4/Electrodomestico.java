@@ -112,36 +112,36 @@ public class Electrodomestico {
         
         switch(consumoEnergetico){
             case 'A':
-            	incrementoPrecio=100;
+            	incrementoPrecio=incrementoPrecio+100;
                 break;
             case 'B':
-            	incrementoPrecio=80;
+            	incrementoPrecio+=80;//=incrementoPrecio+80;
                 break;
             case 'C':
-            	incrementoPrecio=60;
+            	incrementoPrecio+=60;
                 break;
             case 'D':
-            	incrementoPrecio=50;
+            	incrementoPrecio+=50;
                 break;
             case 'E':
-            	incrementoPrecio=30;
+            	incrementoPrecio+=30;
                 break;
             case 'F':
-            	incrementoPrecio=10;
+            	incrementoPrecio+=10;
                 break;
         }
    
         if(peso>=0 && peso<19){
-        	incrementoPrecio=10;
+        	incrementoPrecio+=10;
         	}
         else if(peso>=20 && peso<49){
-        	incrementoPrecio=50;
+        	incrementoPrecio+=50;
         	}
         else if(peso>=50 && peso<=79){
-        	incrementoPrecio=80;
+        	incrementoPrecio+=80;
         	}
         else if(peso>=80){
-        	incrementoPrecio=100;
+        	incrementoPrecio+=100;
         	}
    
         return precioBase+incrementoPrecio;

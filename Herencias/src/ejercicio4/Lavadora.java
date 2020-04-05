@@ -56,7 +56,7 @@ public class Lavadora extends Electrodomestico{
   
         //añadimos el código necesario
         if (carga>30){
-        	incrementoPrecio=incrementoPrecio+ 50;
+        	incrementoPrecio=incrementoPrecio + 50;
         }
   
         return incrementoPrecio;

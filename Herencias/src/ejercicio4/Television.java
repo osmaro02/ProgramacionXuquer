@@ -63,10 +63,10 @@ public class Television extends Electrodomestico{
         double incrementoPrecio=super.precioFinal();
   
         if (resolucion>40){
-        	incrementoPrecio=precioBase*0.3;
+        	incrementoPrecio=incrementoPrecio + precioBase*0.3;
         }
         if (sintonizadorTDT){
-        	incrementoPrecio=incrementoPrecio+50;
+        	incrementoPrecio=incrementoPrecio + 50;
         }
         return incrementoPrecio;
     }
