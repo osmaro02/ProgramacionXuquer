@@ -9,9 +9,12 @@ public class Producto {
 	 protected String Nombre;
 	 protected double Precio;
 	
-	
+	//Contructor por defecto
+		 public Producto(){
+			 
+		 }
 	  
- 	//Contructor por defecto
+ 	//Contructor con 2 parametros
 	 public Producto(String Nombre,double Precio){
 	     this.Nombre=Nombre;
 	     this.Precio=Precio;
